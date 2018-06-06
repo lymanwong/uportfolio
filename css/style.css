@@ -1,4 +1,74 @@
+body {
+  background-color: #2d3c49;
+  font-family: Open Sans,sans-serif;
+}
+
+
+.container {
+  background-color: white;
+}
+
+/* Header styling */
 .logo {
   float: left;
   width: 25%;
+
 }
+
+.header {
+  display: inline-block;
+}
+
+.name {
+  float: right;
+  padding-top: 30px;
+}
+
+.container > div > div > h3 {
+  float: right;
+}
+
+.mainimage {
+  width: 100%;
+  padding-top: 30px;
+}
+
+hr.lineseperator {
+  height: 3px;
+  background: #7d97ad;
+}
+
+
+/* Featured work styling */
+.bottom {
+  padding-top: 30px;
+}
+
+.fwcontainer {
+  width: 100%;
+  text-align: center;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fwcontainer h2 {
+  color: #2d3c49 !important;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.fwcontainer a {
+  color: #2d3c49 !important;
+  font-weight: bold;
+}
+
+.fwtext {
+  color: #7d97ad;
+}
+
+.fwlogo {
+  width: 75%;
+}
+
