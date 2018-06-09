@@ -89,6 +89,7 @@ hr.lineseperator {
 .fwlogo {
   width: 75%;
 }
+
 @media screen and (max-width: 1024px) {
   h1 {
     font-size: 2.5rem;
@@ -206,10 +207,3 @@ hr.lineseperator {
     width: 50%;
   }
 }
-
-
-
-
-
-
-
