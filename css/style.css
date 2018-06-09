@@ -7,6 +7,10 @@ body {
   background-color: white;
 }
 
+a:hover {
+  color: blue !important;
+}
+
 /* Header styling */
 .logo {
 /*   float: left; */
@@ -17,6 +21,7 @@ body {
 
 .logo img {
   width: 100%;
+  margin-left: -6em;
 }
 
 .header {
@@ -74,7 +79,7 @@ hr.lineseperator {
 }
 
 .fwcontainer a {
-  color: #2d3c49 !important;
+  color: #2d3c49;
   font-weight: bold;
 }
 
@@ -84,6 +89,77 @@ hr.lineseperator {
 
 .fwlogo {
   width: 75%;
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.50rem;
+  }
+  .name {
+    width: 70%;
+    order: 2;
+    padding-top: 3em;
+  }
+
+  .logo {
+    width: 30%;
+    height: 100%;
+    order: 1;
+  }
+
+  .logo img {
+    margin-left: -4em;
+    padding-top: 1em;
+  }
+
+  .fwtext {
+    text-align: center;
+  }
+
+  .fwlogo {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    margin-right: auto;
+    margin-left: auto;
+    order: -1 !important;
+    text-align: center;
+  }
+
+  .container > div > div > h3 {
+    float: none;
+  }
+
+  .logo {
+    width: 75%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    order: 2;
+  }
+
+  .logo img {
+    margin-left: 0;
+  }
+
+  .fwtext {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .fwlogo {
+    width: 55%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -98,75 +174,43 @@ hr.lineseperator {
   h3 {
     font-size: 1.25rem;
   }
+
   .name {
     margin-right: auto;
     margin-left: auto;
+    order: 1 !important;
+    text-align: center;
   }
+
+  .container > div > div > h3 {
+    float: none;
+  }
+
   .logo {
     width: 55%;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
+    order: 2 !important;
   }
+
+  .logo img {
+    margin-left: 0;
+  }
+
   .fwtext {
     font-size: 2rem;
+    text-align: center;
   }
+
   .fwlogo {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .name {
-    margin-right: auto;
-    margin-left: auto;
-  }
 
-  .logo {
-    width: 75%;
-    height: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
 
-@media screen and (max-width: 1024px) {
-  h1 {
-    font-size: 2.5rem;
-  }
 
-  h2 {
-    font-size: 1.75rem;
-  }
 
-  h3 {
-    font-size: 1.50rem;
-  }
-  .name {
-    margin-right: auto;
-    margin-left: auto;
-    order: 2;
-    padding-top: 3em;
-  }
 
-  .logo {
-    width: 35%;
-    height: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    order: 1;
-  }
-}
 
-/* @media screen and (min-width: 1025px) {
-  .name {
-    order: 2;
-    padding-top: 3em;
-  }
-
-  .logo {
-    width: 35%;
-    height: 100%;
-    order: 1;
-  }
-} */
